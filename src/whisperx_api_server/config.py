@@ -164,7 +164,7 @@ class WhisperConfig(BaseModel):
     cache: bool = Field(default=True)
     preload_model: str = Field(default=None)
     local_files_only: bool = Field(default=False)
-    download_root: str = Field(default=None)
+    download_root: str = Field(default="/workspace/models")
 
 class AlignConfig(BaseModel):
     models: dict = Field(default_factory=dict)

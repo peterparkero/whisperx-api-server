@@ -1,0 +1,39 @@
+{
+  "text": "Speaker 1: Hello, this is the first speaker. Speaker 2: And I am the second speaker in this conversation.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.0,
+      "text": "Hello, this is the first speaker.",
+      "words": [
+        {"word": "Hello,", "start": 0.0, "end": 0.6},
+        {"word": "this", "start": 0.6, "end": 0.9},
+        {"word": "is", "start": 0.9, "end": 1.1},
+        {"word": "the", "start": 1.1, "end": 1.3},
+        {"word": "first", "start": 1.3, "end": 1.7},
+        {"word": "speaker.", "start": 1.7, "end": 2.3}
+      ],
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "id": 1,
+      "start": 4.0,
+      "end": 9.0,
+      "text": "And I am the second speaker in this conversation.",
+      "words": [
+        {"word": "And", "start": 4.0, "end": 4.2},
+        {"word": "I", "start": 4.2, "end": 4.3},
+        {"word": "am", "start": 4.3, "end": 4.5},
+        {"word": "the", "start": 4.5, "end": 4.7},
+        {"word": "second", "start": 4.7, "end": 5.1},
+        {"word": "speaker", "start": 5.1, "end": 5.6},
+        {"word": "in", "start": 5.6, "end": 5.8},
+        {"word": "this", "start": 5.8, "end": 6.0},
+        {"word": "conversation.", "start": 6.0, "end": 6.8}
+      ],
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "language": "en"
+} 
